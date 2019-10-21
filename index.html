@@ -1,52 +1,60 @@
 <!DOCTYPE html>
-<html lang="en" dir="ltr">
-  <head>
-    <meta charset="utf-8">
-    <meta name="author" content="Ngoc Luong Hoang">
-    <meta name="description" content="My website project"> <!-- Webpage Description to poplulate search engines like Google-->
-    <meta name="keywords" content="website, cs20, computerscience, project"> <!-- Key words for searching -->
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-    <title>Demo of the website project</title>
+<html>
+<head>
 
 
-  </head>
-  <body>
-    <svg width="400" height="110">
-  <rect width="300" height="100" style="fill:rgb(0,0,255);stroke-width:3;stroke:rgb(0,0,0)" ;text="Store" ;/>
-</svg>
+<style>
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+  border-right:1px solid #bbb;
+}
+
+li:last-child {
+  border-right: none;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: #111;
+}
+
+.active {
+  background-color: #4CAF50;
+}
+</style>
+</head>
+
+<body  style="background-color:pink" >
+
+<ul>
+  <li><a class="active" href="childPages/home.html">Home</a></li>
+  <li><a href="childPages/info.html">Info</a></li>
+  <li><a href="childPages/contact.html">Contact</a></li>
+</ul>
+
+</body>
+<font size="15"><p style="text-align:center"><strong>Computer</strong><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQFYX8WzkKdMgMjAWmH-GCF-X2-NcgHOYUW5RGdDiVE4c2OOvauiA" alt="gamelogo" align="middle"style="width:300px;height:300px"> <strong>Store</strong></p></font>
 
 
-    <header><h1>Header Title</h1></header>
-   <nav><h2>Navigation Menu</h2></nav>
-   <aside><p>The Aside Space</p></aside>
-   <section>
-     <h3>Section 1</h3>
-     <article>
-       <p>This is article 1 in section 1.</p>
-     </article>
-     <article>
-       <p>This is article 2 in section 1.</p>
-     </article>
-   </section>
-   <section>
-     <h3>Section 2</h3>
-     <article>
-       <p>This is article 1 in section 2.</p>
-     </article>
-     <article>
-       <p>This is article 2 in section 2.</p>
-     </article>
-   </section>
+<footer>
+   <blockquote cite="https://www.goodreads.com/quotes/tag/happiness" !-- Date Accessed: 09112019 --!>
+     <p style="text-align:right"><strong> Don't cry because it's over, smile because it happened. </strong>  <em><a href="https://www.goodreads.com/quotes/tag/happiness" target="_blank"> Dr.Seuss</a>  </em></p>
+     <p style="text-align:right">&copy Ngoc Luong Hoang, powered in Github</p>
 
- <script src="index.js"></script>
-
-  </body>
-  <footer>
-     <blockquote cite="https://www.goodreads.com/quotes/tag/happiness" !-- Date Accessed: 09112019 --!>
-       <p><strong> Don't cry because it's over, smile because it happened. </strong>  <em><a href="https://www.goodreads.com/quotes/tag/happiness" target="_blank"> Dr.Seuss</a>  </em></p>
-       <p>&copy Ngoc Luong Hoang, powered in Github</p>
-
-   </footer>
-
+ </footer>
 </html>
