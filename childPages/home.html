@@ -1,59 +1,86 @@
 <!DOCTYPE html>
-<html>
-<head>
+<html lang="en" dir="ltr">
+  <head>
+
+    <noscript><h1 style="color:red;">JavaScript needs to be enabled in Settings</h1></noscript> <!-- Checks browser settings for JavaScript -->
+
+    <meta charset="utf-8">
+    <meta name="author"content="Ngoc Luong Hoang">
+    <meta name="description"content="Intermediate JavaScript Lessons">
+    <meta name="keywords"content="JavaScript, Variables, coding, algorithm, lessons, computerscience, cs20, project">
+    <meta name="viewport"content="width=device-width, initial-scale=1.0">
+    <title>Price Calculation</title>
+      <background> <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQFYX8WzkKdMgMjAWmH-GCF-X2-NcgHOYUW5RGdDiVE4c2OOvauiA" alt="gamelogo" align="middle"style="width:250px;height:250px"/></background>
+  </head>
+  <body style="text-align:center;background-color:#F9B1A1">
+
+    <header><h1 style="color:red" >Price Calculation</h1></header>
+  <section><artical>
+  <form action="x.html"method="post" onsubmit="event.preventDefault();">
+  <p>&nbsp;</p></artical></section>
 
 
-<style>
-ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-  background-color: #333;
-}
 
-li {
-  float: left;
-  border-right:1px solid #bbb;
-}
 
-li:last-child {
-  border-right: none;
-}
 
-li a {
-  display: block;
-  color: white;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-}
+  <a><strong>Enter the values  ...</strong></a>
+          <p>
+            <label for="textfield1">Monitor</label>
+            <input name="textfield1" type="text" id="textfield1">
+            <a id="validityTest1">"See the Alert"</a>
+          </p>
+          <p>
+            <label for="textfield2">Motherboard</label>
+            <input name="textfield2" type="text" id="textfield2">
+            <a id="validityTest2">"See the Alert"</a>
+          </p>
+          <p>
+            <label for="textfield3">CPU</label>
+            <input name="textfield3" type="text" id="textfield3">
+            <a id="validityTest3">"See the Alert"</a>
+            <p>
+              <label for="textfield4">RAM</label>
+              <input name="textfield4" type="text" id="textfield4">
+              <a id="validityTest4">"See the Alert"</a>
+            </p>
+            <p>
+              <label for="textfield5">Power Supply</label>
+              <input name="textfield5" type="text" id="textfield5">
+              <a id="validityTest5">"See the Alert"</a>
+            </p>
+            <p>
+              <label for="textfield6">HDD</label>
+              <input name="textfield6" type="text" id="textfield6">
+              <a id="validityTest6">"See the Alert"</a>
+            </p>
+            <p>
+              <label for="textfield7">Keyboard and Mouse</label>
+              <input name="textfield7" type="text" id="textfield7">
+              <a id="validityTest7">"See the Alert"</a>
+            </p>
 
-li a:hover:not(.active) {
-  background-color: #111;
-}
 
-.active {
-  background-color: #4CAF50;
-}
-</style>
-</head>
 
-<body  style="background-color:pink" >
 
-<ul>
-  <li><a class="active" href="childPages/home.html">Home</a></li>
-  <li><a href="childPages/info.html">Info</a></li>
-  <li><a href="childPages/contact.html">Contact</a></li>
-</ul>
+          <!-- Submit Button -->
+          <br>
+          <button type="button" onclick="main()">Submit</button>
+          <br>
+          <h3><a id="answer">Answer</a></h3>
+          <br><br><br>
+
+
+
+
+
+
+
+  <script src="../scripts/home.js"></script>
 
 </body>
-<font size="15"><p style="text-align:center"><strong style="color:brown">Computer</strong><br><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQFYX8WzkKdMgMjAWmH-GCF-X2-NcgHOYUW5RGdDiVE4c2OOvauiA" alt="gamelogo" align="middle"style="width:250px;height:250px"><br> <strong style="color:brown">Store</strong></p></font>
 
+<footer style="text-align:right;">
+    <p>&copy Ngoc Luong Hoang, powered in Github</p>
+</footer>
 
-<footer>
-     <p style="text-align:right"><strong>"Gaming Forever." </strong> </p>
-     <p style="text-align:right">&copy Ngoc Luong Hoang, powered in Github</p>
-
- </footer>
 </html>
