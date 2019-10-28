@@ -21,30 +21,38 @@
 
 
 
+<h1 id="answer"></h1>
+Num 1<input type="text" id ="num1">
+<br><br>
+Num 2<input type="text" id ="num2">
+<br><br>
+Num 3<input type="text" id ="num3">
+<br><br>
+Num 4<input type="text" id ="num4">
+<br><br>
+Num 4<input type="text" id ="num4">
+<br><br>
+Num 5<input type="text" id ="num5">
+<br><br>
+Num 6<input type="text" id ="num6">
+<br><br>
+Num 7<input type="text" id ="num7">
+<br><br>
+<button onclick="calculate()">Calculate</button>
+<script>
+function calculate(){
+var field1=document.getElementById("num1").value;
+var field2=document.getElementById("num2").value;
+var field3=document.getElementById("num3").value;
+var field4=document.getElementById("num4").value;
+var field5=document.getElementById("num5").value;
+var field6=document.getElementById("num6").value;
+var field7=document.getElementById("num7").value;
+var result= parseFloat(field1)+parseFloat(field2)+parseFloat(field3)+parseFloat(field4)+parseFloat(field5)+parseFloat(field6)+parseFloat(field7);
+if(!isNaN(result))
+{document.getElementById('answer').innerHTML="the answer is"+result;}}
 
-  Monitor = <input type="text" id="value1" name="value1" value=""/>
-  value2 = <input type="text" id="value2" name="value2" value=""/>
-  value1 = <input type="text" id="value1" name="value1" value=""/>
-  value2 = <input type="text" id="value2" name="value2" value=""/>
-  value1 = <input type="text" id="value1" name="value1" value=""/>
-  value2 = <input type="text" id="value2" name="value2" value=""/>
-  value1 = <input type="text" id="value1" name="value1" value=""/>
-
-
-
-
-
-          <!-- Submit Button -->
-          <br>
-          <button type="button" onclick="calc()">Submit</button>
-          <br>
-          <h3><a id="answer">Answer</a></h3>
-          <br><br><br>
-
-
-
-
-
+</script>
 
 
   <script src="../scripts/home.js"></script>
