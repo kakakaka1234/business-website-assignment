@@ -22,22 +22,21 @@
 
 
 <h1 id="answer"></h1>
-Num 1<input type="text" id ="num1">
+Monitor_150$<input type="text" id ="num1">
 <br><br>
-Num 2<input type="text" id ="num2">
+RAM_60$<input type="text" id ="num2">
 <br><br>
-Num 3<input type="text" id ="num3">
+HDD_70$<input type="text" id ="num3">
 <br><br>
-Num 4<input type="text" id ="num4">
+Mouse and Keyboard_150$<input type="text" id ="num4">
 <br><br>
-Num 4<input type="text" id ="num4">
+Motherboard_300$<input type="text" id ="num5">
 <br><br>
-Num 5<input type="text" id ="num5">
+Power Supply_150$<input type="text" id ="num6">
 <br><br>
-Num 6<input type="text" id ="num6">
+CPU_250$<input type="text" id ="num7">
 <br><br>
-Num 7<input type="text" id ="num7">
-<br><br>
+
 <button onclick="calculate()">Calculate</button>
 <script>
 function calculate(){
@@ -48,9 +47,9 @@ var field4=document.getElementById("num4").value;
 var field5=document.getElementById("num5").value;
 var field6=document.getElementById("num6").value;
 var field7=document.getElementById("num7").value;
-var result= parseFloat(field1)+parseFloat(field2)+parseFloat(field3)+parseFloat(field4)+parseFloat(field5)+parseFloat(field6)+parseFloat(field7);
+var result=150* parseFloat(field1)+ 60*parseFloat(field2)+ 70*parseFloat(field3)+150*parseFloat(field4)+300*parseFloat(field5)+150*parseFloat(field6)+250*parseFloat(field7);
 if(!isNaN(result))
-{document.getElementById('answer').innerHTML="the answer is"+result;}}
+{document.getElementById('answer').innerHTML="Total cost"+result+ "$";}}
 
 </script>
 
